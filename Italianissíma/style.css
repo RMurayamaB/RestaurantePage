@@ -1,0 +1,32 @@
+#container{
+    width: 100%;
+    margin: auto;
+}
+#header{
+    height:70px;
+    background:#6c502c;
+  }
+.links{
+    background-color: #6c502c;
+    overflow: hidden;
+}
+.links a{
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.links a:hover{
+    background-color: #ffffff;
+    color: #6c502c;
+    padding: 30px 30px;
+}
+
+#imagem{
+    width: 100%;
+    height: 850px;
+    background-image: url("imagens/gabriella-clare-marino-61ipM_1BUZc-unsplash.jpg");
+    background-size: cover ;
+}
